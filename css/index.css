@@ -1,0 +1,143 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+p,
+span,
+strong,
+ul,
+li,
+a {
+  padding: 0;
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+.navigation {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  height: 180px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #fafafa;
+}
+
+.navigation--list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  height: 100%;
+  grid-gap: 0;
+}
+
+.navigation--item {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.latest--article {
+  width: 100vw;
+  position: relative;
+}
+
+.latest--article-title {
+  background-color: #000;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  transform: translateX(-50%);
+}
+
+.latest--article-title h2 {
+  font-size: 32px;
+  color: white;
+}
+
+.latest--article--list {
+  width: 100%;
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.3);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 680px 680px;
+  grid-gap: 0px;
+}
+
+.latest--article--item {
+  /* padding: 24px; */
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+}
+
+.latest--article--item-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.latest--post {
+  border: 2px solid #fafafa;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.latest--post--item {
+  border: 2px solid #fafafa;
+  padding: 2rem 1rem;
+}
+
+.latest--post .item-2{
+    grid-column: span 2;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.latest--post--item .title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 3rem;
+}
+
+.latest--post--item .description {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: 400;
+}
