@@ -50,7 +50,7 @@ main {
   justify-content: center;
   align-content: center;
   justify-items: center;
-  justify-content: center;
+  align-items: center;
   height: 100%;
   grid-gap: 0;
 }
@@ -88,7 +88,7 @@ main {
   background-color: rgba(0, 0, 0, 0.3);
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 680px 680px;
-  grid-gap: 0px;
+  grid-gap: 0;
 }
 
 .latest--article--item {
@@ -97,7 +97,7 @@ main {
   justify-content: center;
   align-content: center;
   justify-items: center;
-  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   border: 2px solid white;
@@ -204,7 +204,6 @@ button {
   margin: 3rem 0 0;
   width: 60%;
   display: inline-block;
-  /* transform: translate(-25%); */
   text-align: center;
   background-color: dimgrey;
   height: 400px;
@@ -264,6 +263,19 @@ button {
   grid-template-rows: 50px 1fr;
 }
 
+.featured--book .title {
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.curated--post--item .title {
+  font-size: 24px;
+  line-height: 30px;
+  margin: 2rem;
+}
+
 .author--article--item .body .title {
   font-size: 24px;
   font-weight: 700;
@@ -296,13 +308,6 @@ button {
   grid-template-rows: 40px 60px 1fr 150px;
 }
 
-.featured--book .title {
-  font-size: 32px;
-  font-weight: 700;
-  text-decoration: underline;
-  text-decoration-color: red;
-}
-
 .featured--book .sub-title {
   font-size: 20px;
   font-weight: 400;
@@ -326,7 +331,7 @@ button {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
   justify-content: center;
-  justify-items: center;
+  align-content: center;
   justify-items: center;
   align-items: center;
   padding: 4rem 2rem;
@@ -340,12 +345,6 @@ button {
   box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   padding: 3rem 0;
-}
-
-.curated--post--item .title {
-  font-size: 24px;
-  line-height: 30px;
-  margin: 2rem;
 }
 
 .curated--post--item ul {
@@ -370,7 +369,7 @@ button {
   justify-content: center;
   align-content: center;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
 }
 
 .curated--post--newsletter h4 {
@@ -407,7 +406,7 @@ button {
   justify-content: center;
   align-content: center;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
 }
 
 .footer ul li {
